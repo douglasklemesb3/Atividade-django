@@ -1,0 +1,28 @@
+{% extends 'shared/layout.html'%}
+
+{%load staticfiles%}
+{% block conteudo%}
+    <header>
+        <div class="div-textos">
+            <h1>Notify<span>.</span></h1>
+            <p>A great new free psd theme to showcase</p>
+            <p>your new application.</p>
+            <section>
+                <a href="https://google.com">
+                    <img src="{% static 'images/icone-android.png' %}" alt="android">
+                </a href="">
+                <a href="">
+                    <img src="{% static 'images/icone-ios.png'%}" alt="ios">
+                </a href="">
+                <a href="">
+                    <img src="{% static 'images/icone-windows.png'%}" alt="windows phone">
+                </a href="">
+            </section>
+        </div>
+
+        <div class="div-mao">
+            <img src="{% static 'images/hand.png' %}" alt="mão segurando celular">
+        </div>
+    </header>
+
+    {%endblock %}
