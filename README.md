@@ -1,9 +1,9 @@
 # Atividade-django
 
-##nomes:
+##nomes#3
 -Douglas Klemes
 -Cibely Pereira
 
-###Dificuldades:
+###Dificuldades##
 -layout
 - django um pouco
